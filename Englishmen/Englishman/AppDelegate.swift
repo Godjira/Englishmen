@@ -22,7 +22,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         SpeechManager.shared.configurate()
-
+        PackManager.shared.configurate()
         
         if !launchedBefore {
             // First run

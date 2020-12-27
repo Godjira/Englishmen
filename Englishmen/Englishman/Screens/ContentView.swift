@@ -11,17 +11,17 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
-            LevelsScreen().tabItem({
+            LevelsView(levelsVM: LevelsVM()).tabItem({
                 Text("Levels")
-                Image("levels")
+                Image("levels").renderingMode(.template)
                 })
             LearnView(learnVM: VMConfigurator.setupLearnVM()).tabItem({
                 Text("LearnScreen")
-                Image("learn")
+                Image("learn").renderingMode(.template)
             })
             ClueScreen().tabItem({
                 Text("ClueScreen")
-                Image("tips")
+                Image("tips").renderingMode(.template)
             })
             
         }

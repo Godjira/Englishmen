@@ -11,19 +11,26 @@ import Combine
 
 class LearnVM: ObservableObject {
   
-  private var sentences = [Sentence]()
+  private var sentences: [Sentence]?
+  
+  var showStub: Bool {
+    get {
+      return sentence == nil
+    }
+  }
+  
   var showEng = false {
     didSet {
       if showEng == false {
         selectIndex += 1
       }
-      if selectIndex >= sentences.count {
+      if selectIndex >= sentences?.count ?? 0 {
         updateSentences()
         sentences = DataManager.shared.sentences
         selectIndex = 0
       }
       
-      sentence = sentences[selectIndex]
+      sentence = sentences?[selectIndex]
       saySentence()
       
     }
@@ -33,11 +40,11 @@ class LearnVM: ObservableObject {
   
   private var selectIndex = 0
   
-  @Published var sentence: Sentence = Sentence(ru: " ! Stub !", en:  "! Stub !")
+  @Published var sentence: Sentence?
   
   func setup() {
     updateSentences()
-    sentence = sentences[selectIndex]
+    sentence = sentences?[selectIndex]
   }
   
   func updateSentences() {
@@ -45,12 +52,13 @@ class LearnVM: ObservableObject {
   }
   
   func saySentence(withUpdate: Bool = true) {
-    SpeechManager.shared.say(sentences[selectIndex], en: showEng, complition: {
+    if let sentence = sentences?[selectIndex] {
+    SpeechManager.shared.say(sentence, en: showEng, complition: {
       if self.showEng && withUpdate {
         self.isNeedUpdate = true
       }
     })
-    
+    }
   }
   
 }

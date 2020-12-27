@@ -15,13 +15,13 @@ struct LearnView: View {
     var body: some View {
         NavigationView {
         VStack {
-            
-            Text(learnVM.sentence.ru)
+            if !learnVM.showStub {
+            Text(learnVM.sentence!.ru)
                 .font(.largeTitle)
             Spacer()
             
             if learnVM.showEng {
-                Text(learnVM.sentence.en)
+                Text(learnVM.sentence!.en)
                     .font(.largeTitle)
             }
             
@@ -33,8 +33,13 @@ struct LearnView: View {
                 
                 Text(learnVM.showEng == true ? "Next" : "Show translate")
             }
-        }
-            .padding(16)
+            } else {
+                Spacer()
+                Text("Select level please")
+                Spacer()
+            }
+        }.padding(16)
+            
         }.onAppear(perform: setup)
     }
     

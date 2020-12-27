@@ -15,16 +15,22 @@ class DataManager: ObservableObject {
     
     let uDefault = UserDefaults.standard
     
-    var selectLevel: Int {
-        get { uDefault.integer(forKey: "select_level") }
-        set { uDefault.set(newValue, forKey: "select_level") }
-    }
-    
-    var sentences: [Sentence] {
-        get {
-            let levelSentences = Constants.levels[selectLevel]
-            return levelSentences.shuffled()
+    var selectLevel: String {
+        get { uDefault.string(forKey: "select_level") ?? "" }
+        set {
+            uDefault.set(newValue, forKey: "select_level")
         }
     }
     
+    var sentences: [Sentence]? {
+        get {
+            if selectLevel == "" {
+                selectLevel = Constants.localStoreNames.first!
+            }
+            return PackManager.shared.getLevel(name: selectLevel)?.sentences.shuffled()
+        }
+    }
+    
+    
+
 }

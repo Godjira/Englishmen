@@ -1,0 +1,28 @@
+{
+    "namePack": "Level 1-1",
+    "sentences": [
+  
+        { "en": "She goes", "ru": "Она идет" },
+        { "en": "He will go",  "ru": "Он пойдет" },
+        { "en": "I will go", "ru": "Я пойду" },
+        { "en": "I see", "ru": "Я вижу" },
+        { "en": "He sees", "ru": "Он видит" },
+        { "en": "We saw", "ru": "Мы видели" },
+        { "en": "She will see", "ru": "Она увидит" },
+        { "en": "Will she see?", "ru": "Она увидит?" },
+        { "en": "She won't see", "ru": "Она не увидит" },
+        { "en": "She didn't see", "ru": "Она не видела" },
+        { "en": "She saw", "ru": "Она видела" },
+        { "en": "Does he see?", "ru": "Он видит?" },
+        { "en": "He doesn't see. She sees!", "ru": "Он не видит. Она видит!" },
+        { "en": "Did he see?", "ru": "Он видел" },
+        { "en": "He didn't see and he won't see", "ru": "Он не видел и он не увидит" },
+        { "en": "Does he sell?", "ru": "Он продает?" },
+        { "en": "He doesn't sell", "ru": "Он не продает" },
+        { "en": "He sold, they didn't sell", "ru": "Он продал, они не продали" },
+        { "en": "Do they sell?", "ru": "Они продают?" },
+        { "en": "They sell and I sell", "ru": "Они продают и я продаю" },
+        
+    ]
+}
+

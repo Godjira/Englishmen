@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C0602622598DF250088BB0D /* Sister.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C0602612598DF250088BB0D /* Sister.json */; };
+		4C0602672598ED8E0088BB0D /* PackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0602662598ED8E0088BB0D /* PackManager.swift */; };
+		4C060269259928290088BB0D /* LevelsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C060268259928290088BB0D /* LevelsVM.swift */; };
+		4C06026B25992FF90088BB0D /* Level1-1.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C06026A25992FF80088BB0D /* Level1-1.json */; };
+		4C06026D259945960088BB0D /* cooking.json in Resources */ = {isa = PBXBuildFile; fileRef = 4C06026C259945960088BB0D /* cooking.json */; };
 		4C20F17D2582BD4900BEC507 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C20F17C2582BD4900BEC507 /* AppDelegate.swift */; };
 		4C20F17F2582BD4900BEC507 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C20F17E2582BD4900BEC507 /* SceneDelegate.swift */; };
 		4C20F1812582BD4900BEC507 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C20F1802582BD4900BEC507 /* ContentView.swift */; };
 		4C20F1832582BD4A00BEC507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C20F1822582BD4A00BEC507 /* Assets.xcassets */; };
 		4C20F1862582BD4A00BEC507 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C20F1852582BD4A00BEC507 /* Preview Assets.xcassets */; };
 		4C20F1892582BD4A00BEC507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C20F1872582BD4A00BEC507 /* LaunchScreen.storyboard */; };
-		4C20F1912582C49B00BEC507 /* LevelsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C20F1902582C49B00BEC507 /* LevelsScreen.swift */; };
+		4C20F1912582C49B00BEC507 /* LevelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C20F1902582C49B00BEC507 /* LevelsView.swift */; };
 		4C20F1932582C94900BEC507 /* ClueScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C20F1922582C94900BEC507 /* ClueScreen.swift */; };
 		4C2E4214258832B000BABFE4 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2E4213258832AF00BABFE4 /* DataManager.swift */; };
 		4C2E42162588333E00BABFE4 /* SpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2E42152588333E00BABFE4 /* SpeechManager.swift */; };
@@ -25,6 +30,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C0602612598DF250088BB0D /* Sister.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Sister.json; sourceTree = "<group>"; };
+		4C0602662598ED8E0088BB0D /* PackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackManager.swift; sourceTree = "<group>"; };
+		4C060268259928290088BB0D /* LevelsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsVM.swift; sourceTree = "<group>"; };
+		4C06026A25992FF80088BB0D /* Level1-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Level1-1.json"; sourceTree = "<group>"; };
+		4C06026C259945960088BB0D /* cooking.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cooking.json; sourceTree = "<group>"; };
 		4C20F1792582BD4900BEC507 /* Englishman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Englishman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C20F17C2582BD4900BEC507 /* AppDelegate.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; };
 		4C20F17E2582BD4900BEC507 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,7 +43,7 @@
 		4C20F1852582BD4A00BEC507 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4C20F1882582BD4A00BEC507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C20F18A2582BD4A00BEC507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4C20F1902582C49B00BEC507 /* LevelsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsScreen.swift; sourceTree = "<group>"; };
+		4C20F1902582C49B00BEC507 /* LevelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsView.swift; sourceTree = "<group>"; };
 		4C20F1922582C94900BEC507 /* ClueScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClueScreen.swift; sourceTree = "<group>"; };
 		4C2E4213258832AF00BABFE4 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		4C2E42152588333E00BABFE4 /* SpeechManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechManager.swift; sourceTree = "<group>"; };
@@ -79,12 +89,13 @@
 			children = (
 				4C20F17C2582BD4900BEC507 /* AppDelegate.swift */,
 				4C20F17E2582BD4900BEC507 /* SceneDelegate.swift */,
-				4CCE2CC325841605009048B5 /* Models */,
 				4CCE2CBE2583BD83009048B5 /* Constants */,
 				4CCE2CBD2583BD70009048B5 /* Screens */,
 				4C20F1822582BD4A00BEC507 /* Assets.xcassets */,
 				4C20F1872582BD4A00BEC507 /* LaunchScreen.storyboard */,
 				4C20F18A2582BD4A00BEC507 /* Info.plist */,
+				4CCE2CC325841605009048B5 /* Models */,
+				4C51BFC1258A72FA006D06E6 /* Data */,
 				4C20F1842582BD4A00BEC507 /* Preview Content */,
 			);
 			path = Englishman;
@@ -98,6 +109,25 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		4C51BFC0258A4B04006D06E6 /* LevelsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				4C060268259928290088BB0D /* LevelsVM.swift */,
+				4C20F1902582C49B00BEC507 /* LevelsView.swift */,
+			);
+			path = LevelsScreen;
+			sourceTree = "<group>";
+		};
+		4C51BFC1258A72FA006D06E6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				4C0602612598DF250088BB0D /* Sister.json */,
+				4C06026A25992FF80088BB0D /* Level1-1.json */,
+				4C06026C259945960088BB0D /* cooking.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		4CCE2CBD2583BD70009048B5 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,7 +135,7 @@
 				4CDAD2FB258762FE004AF08A /* LearnScreen */,
 				4C20F1802582BD4900BEC507 /* ContentView.swift */,
 				4C20F1922582C94900BEC507 /* ClueScreen.swift */,
-				4C20F1902582C49B00BEC507 /* LevelsScreen.swift */,
+				4C51BFC0258A4B04006D06E6 /* LevelsScreen */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -116,6 +146,7 @@
 				4CCE2CBF2583BE03009048B5 /* Constants.swift */,
 				4C2E4213258832AF00BABFE4 /* DataManager.swift */,
 				4C2E42152588333E00BABFE4 /* SpeechManager.swift */,
+				4C0602662598ED8E0088BB0D /* PackManager.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -195,8 +226,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C0602622598DF250088BB0D /* Sister.json in Resources */,
 				4C20F1892582BD4A00BEC507 /* LaunchScreen.storyboard in Resources */,
 				4C20F1862582BD4A00BEC507 /* Preview Assets.xcassets in Resources */,
+				4C06026D259945960088BB0D /* cooking.json in Resources */,
+				4C06026B25992FF90088BB0D /* Level1-1.json in Resources */,
 				4C20F1832582BD4A00BEC507 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,10 +244,12 @@
 			files = (
 				4C20F1932582C94900BEC507 /* ClueScreen.swift in Sources */,
 				4C2E4214258832B000BABFE4 /* DataManager.swift in Sources */,
+				4C0602672598ED8E0088BB0D /* PackManager.swift in Sources */,
 				4CCE2CC52584161D009048B5 /* Sentence.swift in Sources */,
-				4C20F1912582C49B00BEC507 /* LevelsScreen.swift in Sources */,
+				4C20F1912582C49B00BEC507 /* LevelsView.swift in Sources */,
 				4CCE2CBC2583BC91009048B5 /* LearnVM.swift in Sources */,
 				4CA8B94225897F6E003086F4 /* VMConfigurator.swift in Sources */,
+				4C060269259928290088BB0D /* LevelsVM.swift in Sources */,
 				4C20F17D2582BD4900BEC507 /* AppDelegate.swift in Sources */,
 				4CCE2CC02583BE03009048B5 /* Constants.swift in Sources */,
 				4C20F17F2582BD4900BEC507 /* SceneDelegate.swift in Sources */,
